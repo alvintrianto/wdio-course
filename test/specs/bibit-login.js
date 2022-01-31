@@ -26,6 +26,7 @@ describe('Bibit login', () => {
    	    //var num2 = Character.getNumericValue(otp2);
 	    //var num3 = Character.getNumericValue(otp3);
    	    //var num4 = Character.getNumericValue(otp4);
+           //Tidak diperlukan karena javascript langsung mendefinisikan jenis variablenya
    	    
         await $("//div[@data-num="+otp1+"]").click();
         await $("//div[@data-num="+otp2+"]").click();

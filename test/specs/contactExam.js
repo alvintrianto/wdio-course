@@ -23,10 +23,10 @@ describe('Contact', () => {
         // debuging in console log
         //console.log(await $('#evf-submit-2778'))
 
-         await browser.debug();
+        await browser.debug();
 
         //Click Submit
-        await $('#evf-submit-2778').click()
+        await $('#evf-submit-277').click();
 
 
 
