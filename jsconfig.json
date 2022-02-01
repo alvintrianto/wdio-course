@@ -1,0 +1,12 @@
+{  //This json file is used for create autocompletion
+"compilerOptions": {
+    "types": [
+    "node",
+    "webdriverio/async",
+    "@wdio/mocha-framework" 
+    ]
+    },
+    "exclude": [
+    "node_modules"
+    ]
+}

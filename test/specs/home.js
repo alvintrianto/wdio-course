@@ -8,7 +8,7 @@ function openHomepage(){
     return browser.url('https://practice.automationbro.com/')
 }
 
-describe('Home',() =>{
+describe('Home',() => {
     it('Open URL & assert title', async () => {
         //Open URL
         await openHomepage();
