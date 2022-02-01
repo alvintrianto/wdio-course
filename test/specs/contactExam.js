@@ -1,21 +1,23 @@
+import contactPage from "../pages/contact-page";
+
 describe('Contact', () => {
     it('Fill all the input fields and submit form & Asser the success message', async () => {
         //Open contact page
-        await browser.url('/contact');
+        await contactPage.open();
 
         //Input Name
-        await $('.contact-name input').addValue('Test Name');
+       /* await contactPage.nameInput.addValue('Test Name');
 
         //addValue - untuk form yang masih kosong
         //setValue - untuk form yang awalnya ada data terus diisi
         //Input Email
-        await $('.contact-email input').addValue('email@test.com');
+        await contactPage.emailInput.addValue('email@test.com');
 
         //Input Phone
-        await $('.contact-phone input').setValue('621353513443');
+        await contactPage.phoneInput.addValue('621353513443');
 
         //Input Message
-        await $('.contact-message textarea').setValue('Nice to have conversation');
+        await contactPage.messageInput.addValue('Nice to have conversation');
 
         //Debuging
 
@@ -23,15 +25,22 @@ describe('Contact', () => {
         // debuging in console log
         //console.log(await $('#evf-submit-2778'))
 
-        await browser.debug();
+        //await browser.debug();
 
         //Click Submit
-        await $('#evf-submit-277').click();
+        await contactPage.btnSubmit.click();
+        */
 
+        var name = 'Test Name';
+        var email = 'test@mail.com';
+        var phone = '12343155';
+        var message = 'This is a test message';
+
+        contactPage.submitForm(name,email,phone,message);
 
 
         //Validate success text
-        const SuccessAlert =  $('[role="alert"]');
+        const SuccessAlert =  contactPage.alertMessage;
         await expect(SuccessAlert).toHaveTextContaining('Thanks for contacting us! We will be in touch with you shortly');
 
     });

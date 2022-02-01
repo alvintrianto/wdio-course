@@ -1,10 +1,12 @@
+import blogPage from "../pages/blog-page";
+
 describe('Blog Menu', () => {
     it('Get the list of all Recent Posts & assert the lenght of each list item > 1 & assert the total', async () => {
-        //Open homepage
-        await browser.url('/blog');
+        //Open blog page
+        await blogPage.open();
         
         // Get the Recent Post List Elements
-        const recentPostList = $$('#recent-posts-3 li');
+        const recentPostList = blogPage.recentPost;
         
 
         // Loop through the list and assert the text length is greater than 10
