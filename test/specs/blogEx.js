@@ -8,14 +8,15 @@ describe('Blog Menu', () => {
         // Get the Recent Post List Elements
         const recentPostList = blogPage.recentPost;
         
-
+      
         // Loop through the list and assert the text length is greater than 10
         for (const item of recentPostList){
-            const text = await item.getText();
+            let text = await item.getText();
             await expect(text.length).toBeGreaterThan(10);
         }
 
         // Asser the total length of the list is 5
-        await expect(recentPostList).toHaveLength(5);
+        await expect(recentPostList.length).toEqual(5);
+        
     });
 })

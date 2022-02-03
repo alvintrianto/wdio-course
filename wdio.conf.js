@@ -27,6 +27,19 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
+    //Define Suites
+    suites: {
+        smoke: [
+            './test/specs/**/home.js',
+            './test/specs/**/blog.js',
+            './test/specs/**/contactExam.js'
+        ],
+        home: [
+            './test/specs/**/home.js'
+        ]
+    },
+    //command npx wdio --suite suiteName
+
     //
     // ============
     // Capabilities
@@ -211,8 +224,9 @@ exports.config = {
     /**
      * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
-    // beforeTest: function (test, context) {
-    // },
+     beforeTest: async function () {
+         await browser.setWindowSize(1000, 800);
+     },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)

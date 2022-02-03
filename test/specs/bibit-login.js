@@ -3,6 +3,7 @@ describe('Bibit login', () => {
         //Open homepage
         await browser.url('https://ui.lab.bibit.id/staging/');
 
+        await $('//*[contains(text(),"Login")]').waitForClickable();
         await $('//*[contains(text(),"Login")]').click();
 
         await $('.PhoneInput input').addValue('082214928397');

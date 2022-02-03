@@ -18,7 +18,7 @@ class HomePage{
     }
 
     get NavComponent() {
-        return NavComponent
+        return NavComponent;
     }
 }
 

@@ -9,10 +9,15 @@ function UrlContain(urlnya){
 
 
 describe('Home',() => {
-    it('Open URL & assert title', async () => {
+
+    beforeEach(async () => {
+        console.log('This rus before each test');
+        
         //Open URL
         await HomePage.open();
+    })
 
+    it('Open URL & assert title', async () => {
         //Assert title
         await expect(browser).toHaveTitle('Practice E-Commerce Site – Automation Bro');
     });
@@ -26,8 +31,6 @@ describe('Home',() => {
     });
 
     it('Click get started btn & asser url contains get-started text', async () => {
-        //Open Home Page
-        await HomePage.open();
 
         //Click get started button
         //await $('#get-started').click();
@@ -39,8 +42,6 @@ describe('Home',() => {
     });
 
     it('Click on Logo button & assert the URL doesn\'t contain \'get-started\' text', async () => {
-        //Open Home Page
-        await HomePage.open();
 
         //Click get started button
         
@@ -52,8 +53,6 @@ describe('Home',() => {
     });
 
     it('Find heading element & assert the text', async () => {
-        //Open Home Page
-        await HomePage.open();
 
         //find heading element
         const headingEl = await HomePage.txtHeading;
