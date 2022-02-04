@@ -1,0 +1,62 @@
+{
+  "uid" : "64d434b85e0c4c87",
+  "name" : "Simple Upload test",
+  "fullName" : "Upload Test.Simple Upload test",
+  "historyId" : "3d40dcdfa6077a6d1c9e9b1b517d245",
+  "time" : {
+    "start" : 1643984003518,
+    "stop" : 1643984013965,
+    "duration" : 10447
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "Upload Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Upload Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Simple Upload test"
+  }, {
+    "name" : "package",
+    "value" : "Upload Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64d434b85e0c4c87.json",
+  "parameterValues" : [ "chrome-98.0.4758.80" ]
+}

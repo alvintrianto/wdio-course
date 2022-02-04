@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643983995573' stop='1643984007152'>
+    <name>IFrame</name>
+    <title>IFrame</title>
+    <test-cases>
+        <test-case start='1643983995574' status='passed' stop='1643984007150'>
+            <name>Working with iframe</name>
+            <title>Working with iframe</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

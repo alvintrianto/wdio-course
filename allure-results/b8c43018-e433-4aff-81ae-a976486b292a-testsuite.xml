@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643984000934' stop='1643984024822'>
+    <name>Navigation Menu</name>
+    <title>Navigation Menu</title>
+    <test-cases>
+        <test-case start='1643984000936' status='passed' stop='1643984011992'>
+            <name>Get the text of all menu item &amp; assert them</name>
+            <title>Get the text of all menu item &amp; assert them</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1643984011992' status='failed' stop='1643984024820'>
+            <name>Get the text of all menu item &amp; assert them - using wait commands</name>
+            <title>Get the text of all menu item &amp; assert them - using wait commands</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: waitUntil condition timed out after 10000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 10000ms
+                    at UserContext.&lt;anonymous> (C:\Users\alvin\Documents\Latihan\wdio-course\test\specs\/nav.js:49:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

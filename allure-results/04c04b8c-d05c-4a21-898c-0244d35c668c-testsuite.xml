@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643983981199' stop='1643984000720'>
+    <name>Contact</name>
+    <title>Contact</title>
+    <test-cases>
+        <test-case start='1643983981201' status='passed' stop='1643984000718'>
+            <name>Fill all the input fields and submit form &amp; Asser the success message</name>
+            <title>Fill all the input fields and submit form &amp; Asser the success message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

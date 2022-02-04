@@ -11,7 +11,7 @@ function UrlContain(urlnya){
 describe('Home',() => {
 
     beforeEach(async () => {
-        console.log('This rus before each test');
+        console.log('This run before each test');
         
         //Open URL
         await HomePage.open();
@@ -19,7 +19,7 @@ describe('Home',() => {
 
     it('Open URL & assert title', async () => {
         //Assert title
-        await expect(browser).toHaveTitle('Practice E-Commerce Site – Automation Bro');
+        await expect(browser).toHaveTitleContaining('Automation Bro');
     });
 
     it('Open About Page & assert URL', async () => {

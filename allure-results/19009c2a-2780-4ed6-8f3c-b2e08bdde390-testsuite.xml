@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643983995454' stop='1643984014280'>
+    <name>Home</name>
+    <title>Home</title>
+    <test-cases>
+        <test-case start='1643983995455' status='passed' stop='1643984001927'>
+            <name>Open URL &amp; assert title</name>
+            <title>Open URL &amp; assert title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1643984001928' status='passed' stop='1643984009045'>
+            <name>Open About Page &amp; assert URL</name>
+            <title>Open About Page &amp; assert URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1643984009046' status='passed' stop='1643984009638'>
+            <name>Click get started btn &amp; asser url contains get-started text</name>
+            <title>Click get started btn &amp; asser url contains get-started text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1643984009654' status='passed' stop='1643984010367'>
+            <name>Click on Logo button &amp; assert the URL doesn't contain 'get-started' text</name>
+            <title>Click on Logo button &amp; assert the URL doesn't contain 'get-started' text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1643984010368' status='passed' stop='1643984014278'>
+            <name>Find heading element &amp; assert the text</name>
+            <title>Find heading element &amp; assert the text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

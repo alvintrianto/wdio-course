@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643983981225' stop='1643983997565'>
+    <name>Bibit login</name>
+    <title>Bibit login</title>
+    <test-cases>
+        <test-case start='1643983981230' status='passed' stop='1643983997564'>
+            <name>Get the text of all menu item &amp; assert them</name>
+            <title>Get the text of all menu item &amp; assert them</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643983980816' stop='1643983991252'>
+    <name>Blog Menu</name>
+    <title>Blog Menu</title>
+    <test-cases>
+        <test-case start='1643983980819' status='failed' stop='1643983991248'>
+            <name>Get the list of all Recent Posts &amp; assert the lenght of each list item > 1 &amp; assert the total</name>
+            <title>Get the list of all Recent Posts &amp; assert the lenght of each list item > 1 &amp; assert the total</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'getText')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'getText')
+                    at UserContext.&lt;anonymous> (C:\Users\alvin\Documents\Latihan\wdio-course\test\specs\/blogEx.js:14:35)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
