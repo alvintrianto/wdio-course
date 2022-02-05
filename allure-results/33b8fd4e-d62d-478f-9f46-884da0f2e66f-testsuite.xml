@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644059659813' stop='1644059680189'>
+    <name>Bibit login</name>
+    <title>Bibit login</title>
+    <test-cases>
+        <test-case start='1644059659816' status='failed' stop='1644059680187'>
+            <name>Get the text of all menu item &amp; assert them</name>
+            <title>Get the text of all menu item &amp; assert them</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.81'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: element click intercepted: Element &lt;span>...&lt;/span> is not clickable at point (493, 520). Other element would receive the click: &lt;div class="arrowGrad">&lt;/div>
+                  (Session info: chrome=98.0.4758.81)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x0033FDC3+2555331]
+                	Ordinal0 [0x002D77F1+2127857]
+                	Ordinal0 [0x001D2E08+1060360]
+                	Ordinal0 [0x002048CF+1263823]
+                	Ordinal0 [0x00202B10+1256208]
+                	Ordinal0 [0x0020076B+1247083]
+                	Ordinal0 [0x001FF559+1242457]
+                	Ordinal0 [0x001F4FB3+1200051]
+                	Ordinal0 [0x00217B0C+1342220]
+                	Ordinal0 [0x001F4984+1198468]
+                	Ordinal0 [0x00217C14+1342484]
+                	Ordinal0 [0x002275FA+1406458]
+                	Ordinal0 [0x00217976+1341814]
+                	Ordinal0 [0x001F36B6+1193654]
+                	Ordinal0 [0x001F4546+1197382]
+                	GetHandleVerifier [0x004D9622+1619522]
+                	GetHandleVerifier [0x0058882C+2336844]
+                	GetHandleVerifier [0x003D23E1+541697]
+                	GetHandleVerifier [0x003D1443+537699]
+                	Ordinal0 [0x002DD18E+2150798]
+                	Ordinal0 [0x002E1518+2168088]
+                	Ordinal0 [0x002E1660+2168416]
+                	Ordinal0 [0x002EB330+2208560]
+                	BaseThreadInitThunk [0x7790FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77BF7A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77BF7A6E+238]
+                	(No symbol) [0x00000000]</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

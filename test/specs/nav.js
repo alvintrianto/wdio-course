@@ -1,7 +1,11 @@
 import HomePage from "../pages/home-page";
+import allureReporter from '@wdio/allure-reporter';
 
 describe('Navigation Menu', () => {
     it('Get the text of all menu item & assert them', async () => {
+        allureReporter.addFeature("Navigation");
+        allureReporter.addSeverity("critical");
+        
         //Open homepage
         await HomePage.open();
         
