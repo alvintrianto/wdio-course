@@ -1,0 +1,86 @@
+{
+  "uid" : "41863a2f8ab85fbb",
+  "name" : "Get the text of all menu item & assert them - using wait commands",
+  "fullName" : "Navigation Menu.Get the text of all menu item & assert them - using wait commands",
+  "historyId" : "20c3151b6ee851aa22ee96f9f6c00d85",
+  "time" : {
+    "start" : 1643985608665,
+    "stop" : 1643985621283,
+    "duration" : 12618
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: waitUntil condition timed out after 10000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 10000ms\n                    at UserContext.<anonymous> (C:\\Users\\alvin\\Documents\\Latihan\\wdio-course\\test\\specs\\/nav.js:53:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigation Menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation Menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get the text of all menu item & assert them - using wait commands"
+  }, {
+    "name" : "package",
+    "value" : "Navigation Menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "50e9e4c5c557271",
+      "status" : "failed",
+      "statusDetails" : "Error: waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1643985358283,
+        "stop" : 1643985370649,
+        "duration" : 12366
+      }
+    }, {
+      "uid" : "2fb72bb1aa4246fd",
+      "status" : "failed",
+      "statusDetails" : "Error: waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1643984011992,
+        "stop" : 1643984024820,
+        "duration" : 12828
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "41863a2f8ab85fbb.json",
+  "parameterValues" : [ "chrome-98.0.4758.80" ]
+}

@@ -1,0 +1,84 @@
+{
+  "uid" : "501762ec17945f98",
+  "name" : "Get the text of all menu item & assert them",
+  "fullName" : "Navigation Menu.Get the text of all menu item & assert them",
+  "historyId" : "a7c0d4d938c83085801349e7471fb1e",
+  "time" : {
+    "start" : 1643985602236,
+    "stop" : 1643985608664,
+    "duration" : 6428
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Navigation"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigation Menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation Menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get the text of all menu item & assert them"
+  }, {
+    "name" : "package",
+    "value" : "Navigation Menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "4747beaeabd8bcc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643985351951,
+        "stop" : 1643985358281,
+        "duration" : 6330
+      }
+    }, {
+      "uid" : "7513c689642e123d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643984000936,
+        "stop" : 1643984011992,
+        "duration" : 11056
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "501762ec17945f98.json",
+  "parameterValues" : [ "chrome-98.0.4758.80" ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "76770aad17007105",
+  "name" : "Upload on a hidden input field",
+  "fullName" : "Upload Test.Upload on a hidden input field",
+  "historyId" : "6e50fc3cae3b484934bdeadc285e8185",
+  "time" : {
+    "start" : 1644059723148,
+    "stop" : 1644059740814,
+    "duration" : 17666
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "Upload Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Upload Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Upload on a hidden input field"
+  }, {
+    "name" : "package",
+    "value" : "Upload Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76770aad17007105.json",
+  "parameterValues" : [ "chrome-98.0.4758.81" ]
+}

@@ -1,0 +1,70 @@
+{
+  "uid" : "73f5422b3cfd4009",
+  "name" : "Find heading element & assert the text",
+  "fullName" : "Home.Find heading element & assert the text",
+  "historyId" : "e6bc0d4da5c1af766b3845ba63955011",
+  "time" : {
+    "start" : 1644060024665,
+    "stop" : 1644060027201,
+    "duration" : 2536
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Find heading element & assert the text"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f880b9412f325f39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644059706044,
+        "stop" : 1644059709458,
+        "duration" : 3414
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73f5422b3cfd4009.json",
+  "parameterValues" : [ "chrome-98.0.4758.81" ]
+}

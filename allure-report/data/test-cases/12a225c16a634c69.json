@@ -1,0 +1,68 @@
+{
+  "uid" : "12a225c16a634c69",
+  "name" : "Get the text of all menu item & assert them",
+  "fullName" : "Bibit login.Get the text of all menu item & assert them",
+  "historyId" : "bbd9062193547c22cf1924b195d7250",
+  "time" : {
+    "start" : 1644059659816,
+    "stop" : 1644059680187,
+    "duration" : 20371
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element click intercepted: element click intercepted: Element <span>...</span> is not clickable at point (493, 520). Other element would receive the click: <div class=\"arrowGrad\"></div>\n                  (Session info: chrome=98.0.4758.81)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x0033FDC3+2555331]\n                \tOrdinal0 [0x002D77F1+2127857]\n                \tOrdinal0 [0x001D2E08+1060360]\n                \tOrdinal0 [0x002048CF+1263823]\n                \tOrdinal0 [0x00202B10+1256208]\n                \tOrdinal0 [0x0020076B+1247083]\n                \tOrdinal0 [0x001FF559+1242457]\n                \tOrdinal0 [0x001F4FB3+1200051]\n                \tOrdinal0 [0x00217B0C+1342220]\n                \tOrdinal0 [0x001F4984+1198468]\n                \tOrdinal0 [0x00217C14+1342484]\n                \tOrdinal0 [0x002275FA+1406458]\n                \tOrdinal0 [0x00217976+1341814]\n                \tOrdinal0 [0x001F36B6+1193654]\n                \tOrdinal0 [0x001F4546+1197382]\n                \tGetHandleVerifier [0x004D9622+1619522]\n                \tGetHandleVerifier [0x0058882C+2336844]\n                \tGetHandleVerifier [0x003D23E1+541697]\n                \tGetHandleVerifier [0x003D1443+537699]\n                \tOrdinal0 [0x002DD18E+2150798]\n                \tOrdinal0 [0x002E1518+2168088]\n                \tOrdinal0 [0x002E1660+2168416]\n                \tOrdinal0 [0x002EB330+2208560]\n                \tBaseThreadInitThunk [0x7790FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77BF7A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77BF7A6E+238]\n                \t(No symbol) [0x00000000]",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Bibit login"
+  }, {
+    "name" : "testClass",
+    "value" : "Bibit login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get the text of all menu item & assert them"
+  }, {
+    "name" : "package",
+    "value" : "Bibit login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "12a225c16a634c69.json",
+  "parameterValues" : [ "chrome-98.0.4758.81" ]
+}

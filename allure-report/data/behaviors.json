@@ -1,5 +1,485 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Get the list of all Recent Posts & assert the lenght of each list item > 1 & assert the total",
+    "uid" : "1899f200b5210249",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643983981131,
+      "stop" : 1643983991692,
+      "duration" : 10561
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-98.0.4758.80" ]
+  }, {
+    "name" : "Fill all the input fields and submit form & Asser the success message",
+    "uid" : "6382c0e2efa75c9d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643983981201,
+      "stop" : 1643984000718,
+      "duration" : 19517
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.80" ]
+  }, {
+    "name" : "Get the text of all menu item & assert them",
+    "uid" : "cc4c740d908fe290",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643983981230,
+      "stop" : 1643983997564,
+      "duration" : 16334
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.80" ]
+  }, {
+    "name" : "Fill all the input fields and submit form & Asser the success message",
+    "uid" : "de265b5ee5b3421e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643983981237,
+      "stop" : 1643983999943,
+      "duration" : 18706
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.80" ]
+  }, {
+    "name" : "Open URL & assert title",
+    "uid" : "772cede25b232332",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643983995455,
+      "stop" : 1643984001927,
+      "duration" : 6472
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.80" ]
+  }, {
+    "name" : "Working with iframe",
+    "uid" : "dd8effedba463fb6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643983995574,
+      "stop" : 1643984007150,
+      "duration" : 11576
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.80" ]
+  }, {
+    "name" : "Open About Page & assert URL",
+    "uid" : "3a0d53ee31098940",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643984001928,
+      "stop" : 1643984009045,
+      "duration" : 7117
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.80" ]
+  }, {
+    "name" : "Simple Upload test",
+    "uid" : "b73a2ec4c5354b00",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643984003518,
+      "stop" : 1643984013965,
+      "duration" : 10447
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.80" ]
+  }, {
+    "name" : "Click get started btn & asser url contains get-started text",
+    "uid" : "b0762abd6878d89c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643984009046,
+      "stop" : 1643984009638,
+      "duration" : 592
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.80" ]
+  }, {
+    "name" : "Click on Logo button & assert the URL doesn't contain 'get-started' text",
+    "uid" : "3bcdcabfd791510f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643984009654,
+      "stop" : 1643984010367,
+      "duration" : 713
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.80" ]
+  }, {
+    "name" : "Find heading element & assert the text",
+    "uid" : "d65eda8a87be6eb1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643984010368,
+      "stop" : 1643984014278,
+      "duration" : 3910
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.80" ]
+  }, {
+    "name" : "Upload on a hidden input field",
+    "uid" : "5c28e783714be91f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643984013966,
+      "stop" : 1643984026412,
+      "duration" : 12446
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.80" ]
+  }, {
+    "name" : "Navigation",
+    "children" : [ {
+      "name" : "Get the text of all menu item & assert them",
+      "uid" : "501762ec17945f98",
+      "parentUid" : "0e3c709c74cf4c6a317ec19089925dbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643985602236,
+        "stop" : 1643985608664,
+        "duration" : 6428
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80" ]
+    }, {
+      "name" : "Get the text of all menu item & assert them",
+      "uid" : "7955acf2fb6ee5e7",
+      "parentUid" : "0e3c709c74cf4c6a317ec19089925dbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644059688147,
+        "stop" : 1644059698529,
+        "duration" : 10382
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.81" ]
+    } ],
+    "uid" : "0e3c709c74cf4c6a317ec19089925dbc"
+  }, {
+    "name" : "Get the text of all menu item & assert them - using wait commands",
+    "uid" : "41863a2f8ab85fbb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1643985608665,
+      "stop" : 1643985621283,
+      "duration" : 12618
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.80" ]
+  }, {
+    "name" : "Get the text of all menu item & assert them",
+    "uid" : "12a225c16a634c69",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644059659816,
+      "stop" : 1644059680187,
+      "duration" : 20371
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "Fill all the input fields and submit form & Asser the success message",
+    "uid" : "ce248e53ce604490",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644059659965,
+      "stop" : 1644059681349,
+      "duration" : 21384
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "Get the list of all Recent Posts & assert the lenght of each list item > 1 & assert the total",
+    "uid" : "c955fa0a139d131f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644059660073,
+      "stop" : 1644059671461,
+      "duration" : 11388
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "Working with iframe",
+    "uid" : "609871a8c3071b0a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644059688053,
+      "stop" : 1644059704649,
+      "duration" : 16596
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "Simple Upload test",
+    "uid" : "7a959ae9eb6ee060",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644059688215,
+      "stop" : 1644059723148,
+      "duration" : 34933
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "Get the text of all menu item & assert them - using wait commands",
+    "uid" : "78b39c7263ebff93",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644059698529,
+      "stop" : 1644059711440,
+      "duration" : 12911
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "Upload on a hidden input field",
+    "uid" : "76770aad17007105",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644059723148,
+      "stop" : 1644059740814,
+      "duration" : 17666
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "Open URL & assert title",
+    "uid" : "3f9f4914b48035c5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644060007687,
+      "stop" : 1644060017208,
+      "duration" : 9521
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "Open About Page & assert URL",
+    "uid" : "9aca82d88bf65f9a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644060017209,
+      "stop" : 1644060023531,
+      "duration" : 6322
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "Click get started btn & asser url contains get-started text",
+    "uid" : "d0dd4b001df58f75",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644060023532,
+      "stop" : 1644060024040,
+      "duration" : 508
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "Click on Logo button & assert the URL doesn't contain 'get-started' text",
+    "uid" : "817eb614260b85f4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644060024052,
+      "stop" : 1644060024665,
+      "duration" : 613
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "Find heading element & assert the text",
+    "uid" : "73f5422b3cfd4009",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644060024665,
+      "stop" : 1644060027201,
+      "duration" : 2536
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "Fill all the input fields and submit form & Asser the success message",
+    "uid" : "9d3e65f18fe0708d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644066876004,
+      "stop" : 1644066890451,
+      "duration" : 14447
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  } ]
 }

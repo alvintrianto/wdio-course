@@ -1,0 +1,60 @@
+{
+  "uid" : "eb98d954f3a012a9",
+  "name" : "Get the list of all Recent Posts & assert the lenght of each list item > 1 & assert the total",
+  "fullName" : "Blog Menu.Get the list of all Recent Posts & assert the lenght of each list item > 1 & assert the total",
+  "historyId" : "bce0b4f2a2b317cea69e2538cb14437b",
+  "time" : {
+    "start" : 1644059659672,
+    "stop" : 1644059678938,
+    "duration" : 19266
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Blog Menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Blog Menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get the list of all Recent Posts & assert the lenght of each list item > 1 & assert the total"
+  }, {
+    "name" : "package",
+    "value" : "Blog Menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.81"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb98d954f3a012a9.json",
+  "parameterValues" : [ "chrome-98.0.4758.81" ]
+}

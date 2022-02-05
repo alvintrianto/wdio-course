@@ -1,5 +1,110 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error: waitUntil condition timed out after 10000ms",
+      "children" : [ {
+        "name" : "Get the text of all menu item & assert them - using wait commands",
+        "uid" : "41863a2f8ab85fbb",
+        "parentUid" : "c5b488a46aebf5d746c5930d1edeb736",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643985608665,
+          "stop" : 1643985621283,
+          "duration" : 12618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-98.0.4758.80" ]
+      }, {
+        "name" : "Get the text of all menu item & assert them - using wait commands",
+        "uid" : "78b39c7263ebff93",
+        "parentUid" : "c5b488a46aebf5d746c5930d1edeb736",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644059698529,
+          "stop" : 1644059711440,
+          "duration" : 12911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-98.0.4758.81" ]
+      } ],
+      "uid" : "c5b488a46aebf5d746c5930d1edeb736"
+    }, {
+      "name" : "element click intercepted: element click intercepted: Element <span>...</span> is not clickable at point (493, 520). Other element would receive the click: <div class=\"arrowGrad\"></div>\n                  (Session info: chrome=98.0.4758.81)",
+      "children" : [ {
+        "name" : "Get the text of all menu item & assert them",
+        "uid" : "12a225c16a634c69",
+        "parentUid" : "1e8cfc542535cf15eba64908bab03460",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644059659816,
+          "stop" : 1644059680187,
+          "duration" : 20371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-98.0.4758.81" ]
+      } ],
+      "uid" : "1e8cfc542535cf15eba64908bab03460"
+    }, {
+      "name" : "TypeError: Cannot read properties of undefined (reading 'getText')",
+      "children" : [ {
+        "name" : "Get the list of all Recent Posts & assert the lenght of each list item > 1 & assert the total",
+        "uid" : "c955fa0a139d131f",
+        "parentUid" : "11bd6ef5f353ec49b6256ffad6bc624d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644059660073,
+          "stop" : 1644059671461,
+          "duration" : 11388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-98.0.4758.81" ]
+      } ],
+      "uid" : "11bd6ef5f353ec49b6256ffad6bc624d"
+    }, {
+      "name" : "Expected 'Thanks for contacting us! We will be in touch with you shortly' to contain 'Tks'.      \n                      actual expected\n                      \n                      'Thanks for contacting us! We will be in touch with you shortlyTks'\n                      ",
+      "children" : [ {
+        "name" : "Fill all the input fields and submit form & Asser the success message",
+        "uid" : "9d3e65f18fe0708d",
+        "parentUid" : "39bbac1764317919197e25158b695ce2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644066876004,
+          "stop" : 1644066890451,
+          "duration" : 14447
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-98.0.4758.81" ]
+      } ],
+      "uid" : "39bbac1764317919197e25158b695ce2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

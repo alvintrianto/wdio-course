@@ -1,0 +1,71 @@
+{
+  "uid" : "1899f200b5210249",
+  "name" : "Get the list of all Recent Posts & assert the lenght of each list item > 1 & assert the total",
+  "fullName" : "Blog Menu.Get the list of all Recent Posts & assert the lenght of each list item > 1 & assert the total",
+  "historyId" : "44a1247f01a408835faab48fb1977116",
+  "time" : {
+    "start" : 1643983981131,
+    "stop" : 1643983991692,
+    "duration" : 10561
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Blog Menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Blog Menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get the list of all Recent Posts & assert the lenght of each list item > 1 & assert the total"
+  }, {
+    "name" : "package",
+    "value" : "Blog Menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3dbedc95a192fbd4",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'getText')",
+      "time" : {
+        "start" : 1643983980819,
+        "stop" : 1643983991248,
+        "duration" : 10429
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1899f200b5210249.json",
+  "parameterValues" : [ "chrome-98.0.4758.80" ]
+}

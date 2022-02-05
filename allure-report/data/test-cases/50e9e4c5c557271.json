@@ -1,0 +1,62 @@
+{
+  "uid" : "50e9e4c5c557271",
+  "name" : "Get the text of all menu item & assert them - using wait commands",
+  "fullName" : "Navigation Menu.Get the text of all menu item & assert them - using wait commands",
+  "historyId" : "20c3151b6ee851aa22ee96f9f6c00d85",
+  "time" : {
+    "start" : 1643985358283,
+    "stop" : 1643985370649,
+    "duration" : 12366
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: waitUntil condition timed out after 10000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 10000ms\n                    at UserContext.<anonymous> (C:\\Users\\alvin\\Documents\\Latihan\\wdio-course\\test\\specs\\/nav.js:54:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigation Menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation Menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get the text of all menu item & assert them - using wait commands"
+  }, {
+    "name" : "package",
+    "value" : "Navigation Menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50e9e4c5c557271.json",
+  "parameterValues" : [ "chrome-98.0.4758.80" ]
+}

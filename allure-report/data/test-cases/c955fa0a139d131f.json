@@ -1,0 +1,76 @@
+{
+  "uid" : "c955fa0a139d131f",
+  "name" : "Get the list of all Recent Posts & assert the lenght of each list item > 1 & assert the total",
+  "fullName" : "Blog Menu.Get the list of all Recent Posts & assert the lenght of each list item > 1 & assert the total",
+  "historyId" : "bce0b4f2a2b317cea69e2538cb14437b",
+  "time" : {
+    "start" : 1644059660073,
+    "stop" : 1644059671461,
+    "duration" : 11388
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'getText')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'getText')\n                    at UserContext.<anonymous> (C:\\Users\\alvin\\Documents\\Latihan\\wdio-course\\test\\specs\\/blogEx.js:14:35)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Blog Menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Blog Menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get the list of all Recent Posts & assert the lenght of each list item > 1 & assert the total"
+  }, {
+    "name" : "package",
+    "value" : "Blog Menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eb98d954f3a012a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644059659672,
+        "stop" : 1644059678938,
+        "duration" : 19266
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c955fa0a139d131f.json",
+  "parameterValues" : [ "chrome-98.0.4758.81" ]
+}

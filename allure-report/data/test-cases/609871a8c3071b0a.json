@@ -1,0 +1,62 @@
+{
+  "uid" : "609871a8c3071b0a",
+  "name" : "Working with iframe",
+  "fullName" : "IFrame.Working with iframe",
+  "historyId" : "13cf9b79a0c13395899c8ffffe019475",
+  "time" : {
+    "start" : 1644059688053,
+    "stop" : 1644059704649,
+    "duration" : 16596
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "IFrame"
+  }, {
+    "name" : "testClass",
+    "value" : "IFrame"
+  }, {
+    "name" : "testMethod",
+    "value" : "Working with iframe"
+  }, {
+    "name" : "package",
+    "value" : "IFrame"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "609871a8c3071b0a.json",
+  "parameterValues" : [ "chrome-98.0.4758.81" ]
+}
